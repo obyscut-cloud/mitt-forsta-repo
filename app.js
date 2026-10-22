@@ -34,3 +34,16 @@ switch (traficLight) {
         default:
             console.log("okänd signal")
 }
+
+//class test Väderassistenten
+const weather="regn"
+switch(weather) {
+    case "regn":
+        console.log ("Ta med ett paraply!")
+    case "sol":
+        console.log("Glöm inte solglasögon!")
+    case "snö":
+        console.log ("Ta på dig en varm jacka!")
+    default:
+        console.log ("kolla vädrerappen igen!")
+}
