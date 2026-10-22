@@ -2,7 +2,7 @@ let age =16
 let hasTicket = true
 let withAdult = true
 
-if(age >= 15 && hasTicket == true &&withAdult ===true)) {
+if(age >= 15  && (hasTicket == true &&withAdult ===true)) {
     console.log("Välkommen in  i Bio")
 } else {
     console.log("gå köp ticket din snåle fan")
@@ -11,9 +11,9 @@ if(age >= 15 && hasTicket == true &&withAdult ===true)) {
 
 
 const isLoggedIn=true;
-const userRole="admin"
+const userRole="admin";
 
-if(isLOggedIn ===) {
+if (isLoggedIn===) {
     if (userRole==="admin") {
     console.log ("Välkommen till Adminpanel!")
     } else {
@@ -21,4 +21,16 @@ if(isLOggedIn ===) {
     }
 } else {
     console.log ("Du måste logga in först !")
+}
+//Swisth
+const traficLight="gul"
+switch (traficLight) {
+    case "grön" :
+        console.log ("kör")
+        break;
+    case "gul":
+        console.log ("stanna !")
+        break;
+        default:
+            console.log("okänd signal")
 }
